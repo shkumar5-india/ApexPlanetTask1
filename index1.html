@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+    color: rgb(26, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.topic {
+    color: rgb(11, 15, 243);
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 10px auto 30px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+button {
+            display: block;
+            margin: 30px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #2f14ca;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+}
+button:hover {
+    background:linear-gradient(75deg,rgb(255, 255, 255),rgb(231, 231, 231),rgb(12, 136, 238));
+    transition: all 0.5s ease-in-out; 
+    color: black;         
+    font-size:18px;                                                                                                                                                      ;
+}
+    </style>
+</head>
+<body>
+    <h1>Creation of a Web Page</h1>
+    <h2 class="topic">Frontend Development:</h2>
+    <p>
+        Very Important for creating a web page for better user experience.<br>
+        <strong>Technologies:</strong> HTML (Basic Structure), CSS (Design & Styling), and JavaScript (Functionality).<br>
+        <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank"><strong>Learn More</strong></a>
+    </p>
+    <img src="image.jpg" alt="Frontend Development" width="350">
+    <button onclick="message()">Submit</button>
+    <script >
+        function message() {
+            alert("You Clicked The Button");
+        };
+    </script>
+</body>
+</html>
